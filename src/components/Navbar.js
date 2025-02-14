@@ -4,7 +4,7 @@ import '../styles/Navbar.css'
 function Navbar(props) {
     return (
         <header id="main-header">
-            <div className="logo"><p>Thibaut GAUDINAT</p></div>
+            <h2 className="logo">Thibaut GAUDINAT</h2>
             <nav id="main-nav">
                 <ul>
                     <li><a href="#competences"> Compétences</a></li>
