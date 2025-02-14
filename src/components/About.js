@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/About.css'
 
 function About(props) {
     return (
-        <div id="a-propos" className="a-propos">
+        <section id="a-propos" className="a-propos">
             <h2>A propos</h2>
             <div>
                 <p>Après deux ans de Classe Préparatoire aux Grandes Ecoles (Math Sup Math Spé) et une Licence en
@@ -12,7 +13,7 @@ function About(props) {
                 <p>En 2023 j’ai effectué un bilan de compétences qui m’a mené à me reconvertir dans le développement web
                     et web mobile.</p>
             </div>
-        </div>
+        </section>
     );
 }
 

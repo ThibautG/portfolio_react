@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/Footer.css'
 
 function Footer(props) {
     return (
-        <div id="main-footer">
+        <footer id="main-footer">
             <a href="./mentions-legales.html">mentions légales</a>
-        </div>
+        </footer>
     );
 }
 

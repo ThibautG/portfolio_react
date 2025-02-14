@@ -1,8 +1,10 @@
 import React from 'react';
+import photo_big from '../assets/photo-big.png';
+import '../styles/Presentation.css'
 
 function Presentation(props) {
     return (
-        <div className={"presentation"}>
+        <section className={"presentation"}>
             <div className="presentation-texte">
                 <p></p>
                 <h1>Développeur web et web mobile</h1>
@@ -24,9 +26,9 @@ function Presentation(props) {
                 </ul>
             </div>
             <div className="presentation-image">
-                <img src="../assets/photo-big.png" alt="portrait"/>
+                <img src={photo_big} alt="portrait"/>
             </div>
-        </div>
+        </section>
 
     );
 }

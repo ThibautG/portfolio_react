@@ -1,0 +1,58 @@
+
+/* ===== DESIGN GLOBAL ===== */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: #f0f0f0;
+    font-family: 'latolight', Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #141414;
+
+}
+
+h1 {
+    padding: 20px 0;
+    font-family: 'oswaldregular';
+    font-size: 4.0rem;
+}
+
+h2 {
+    padding: 15px 0 20px 0;
+    font-family: 'oswaldregular';
+    font-size: 3.2rem;
+}
+
+h3 {
+    padding: 10px 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+
+strong {
+    font-family: 'latobold';
+}
+
+section,
+header {
+    padding: 20px 15%;
+}
+
+.sticky {
+    display: none;
+    width: 20px;
+    padding: 10px 10px 0 10px;
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    text-decoration: none;
+    color: #141414;
+    background-color: #f0f0f0;
+    border: 1px solid #141414;
+    border-radius: 10%;
+    opacity: 70%;
+}

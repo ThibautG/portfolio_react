@@ -1,0 +1,17 @@
+/*== A Propos ==*/
+.a-propos {
+    /* height: 700px; */
+    /* padding-inline: 15%; */
+    background-image: url("../assets/ouie-big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.a-propos h2 {
+    text-align: center;
+}
+
+.a-propos div {
+    padding: 100px 0;
+}

@@ -1,0 +1,50 @@
+/*== Compétences */
+.competences {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-inline: 15%; */
+    padding-bottom: 50px;
+    background-color: #d7dae5;
+}
+
+.competences h2 {
+    text-align: center;
+}
+
+.competences-bloc-global {
+    display: flex;
+    gap: 50px;
+}
+
+.competences-bloc-global h3 {
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.competences-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    /* height: 600px; */
+    background-color: #f0f0f0;
+}
+
+
+.competences-bloc li img {
+    width: 70%;
+}
+
+.competences-bloc li {
+    text-align: center;
+}
+
+.competences-bloc ul {
+    display: grid;
+    grid-template-rows: 200px 10px 200px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}

@@ -1,0 +1,101 @@
+/* == Presentation == */
+.presentation {
+    display: flex;
+    /* padding-inline: 15%; */
+}
+
+.presentation-texte p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.presentation h1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn>a {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-phone {
+    width: 30%;
+    padding: 18px 32px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #141414;
+    color: #f0f0f0;
+    margin-right: 10px;
+}
+
+
+.btn-phone::before {
+    font-family: "picto";
+    content: '\e800';
+    /* font-size: 200%; */
+    color: #f0f0f0;
+    /* margin-right: 20px; */
+}
+
+.btn-cv {
+    width: 30%;
+    padding: 18px 32px;
+    border: 1px solid #141414;
+    border-radius: 10px;
+    text-align: center;
+    /* background-color: #d7dae5; */
+    color: #141414;
+}
+
+
+.btn-cv::before {
+    font-family: "picto";
+    content: '\e802';
+    /* font-size: 200%; */
+    color: #141414;
+    /* margin-right: 20px; */
+}
+
+.presentation p a,
+.reseaux a {
+    color: #141414;
+}
+
+.reseaux a{
+    text-decoration: none;
+}
+
+.gmail::before {
+    font-family: "picto";
+    content: '\e804';
+    /* font-size: 200%; */
+    color: #141414;
+    margin-right: 10px;
+}
+
+.linkedin::before {
+    font-family: "picto";
+    content: '\f30c';
+    /* font-size: 200%; */
+    color: #141414;
+    margin-right: 10px;
+}
+
+.reseaux li:first-of-type {
+    margin-right: 20px;
+}
+
+.reseaux {
+    display: flex;
+}
+
+.presentation img {
+    width: 100%;
+    padding: 20px 0 10px 0;
+}

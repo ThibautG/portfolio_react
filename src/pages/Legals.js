@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Pages(props) {
+function Legals(props) {
     return (
         <div id="main-content">
             <div className="mentions-legales">
@@ -21,4 +21,4 @@ function Pages(props) {
         </div>);
 }
 
-export default Pages;
+export default Legals;

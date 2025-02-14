@@ -1,0 +1,47 @@
+/*== Projets ==*/
+.projets {
+    /* height: 700px; */
+    /* padding-inline: 15%; */
+    background-color: #d7dae5;
+    background-image: url("../assets/blob-big.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.projets h2 {
+    text-align: center;
+}
+
+.projets h3 {
+    padding-top: 0;
+}
+
+.projets-image {
+    width: 95%;
+    height: 95%;
+    background-color: #f0f0f0;
+}
+
+
+.projets-sous-bloc {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-block: 5%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%;
+
+}
+
+.image1,
+.detail2,
+.image3 {
+    margin-right: 5%;
+}
+
+.detail1,
+.image2,
+.detail3 {
+    margin-left: 5%;
+}

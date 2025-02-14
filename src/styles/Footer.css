@@ -1,0 +1,18 @@
+/* ===== MAIN FOOTER ===== */
+#main-footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    font-size: 1.6rem;
+    align-items: center;
+    background-color: #141414;
+}
+
+#main-footer a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+#main-footer a:hover {
+    text-decoration: underline;
+}

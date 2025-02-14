@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/Navbar.css'
+import arrow from '../assets/arrow-up-solid.svg';
 
 function ButtonHome(props) {
     window.addEventListener('scroll', function() {
@@ -11,7 +13,7 @@ function ButtonHome(props) {
     });
 
     return (
-        <a href="#main-header" className="sticky"><img src="./img/arrow-up-solid.svg" alt=""/></a>);
+        <a href="#main-header" className="sticky"><img src={arrow} alt=""/></a>);
 }
 
 export default ButtonHome;

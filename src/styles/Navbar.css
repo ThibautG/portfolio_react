@@ -1,0 +1,34 @@
+/* ===== MAIN HEADER ===== */
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* padding-inline: 15%; */
+    font-family: 'oswaldregular';
+    background-color: #ffd046;
+}
+
+#main-header a{
+    text-decoration: none;
+    color: #141414;
+}
+
+#main-header a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    justify-content: flex-start;
+}
+
+
+
+/* ===== MAIN NAV ===== */
+#main-nav ul {
+    display: flex;
+}
+
+#main-nav ul li {
+    padding-left: 40px;
+}

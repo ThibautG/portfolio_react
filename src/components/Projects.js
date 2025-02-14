@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Projects.css'
 
 function Projects(props) {
     return (
-        <div id="projets" className="projets">
+        <section id="projets" className="projets">
             <h2> Projets</h2>
             <div className="projets-bloc">
                 <div className="projets-sous-bloc">
@@ -33,7 +34,7 @@ function Projects(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

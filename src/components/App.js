@@ -1,4 +1,5 @@
 import '../styles/App.css';
+import '../styles/Global.css'
 import Navbar from "./Navbar";
 import ButtonHome from "./ButtonHome";
 import React from "react";
@@ -7,6 +8,7 @@ import Skills from "./Skills";
 import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
+
 
 function App() {
   return (
