@@ -3,7 +3,7 @@ import React from 'react';
 function Legals(props) {
     return (
         <div id="main-content">
-            <div className="mentions-legales">
+            <section className="mentions-legales">
                 <h1>Mentions légales</h1>
                 <ul>
                     <li>NOM et prénom : GAUDINAT Thibaut</li>
@@ -17,7 +17,7 @@ function Legals(props) {
                     <li>Adresse : 16 Place Saint Cyran, 36000 Châteauroux</li>
                     <li>Téléphone : +33254535200</li>
                 </ul>
-            </div>
+            </section>
         </div>);
 }
 

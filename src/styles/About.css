@@ -13,5 +13,14 @@
 }
 
 .a-propos div {
-    padding: 100px 0;
+    padding: 50px 0;
+}
+
+.a-propos-blocs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-propos-blocs div {
+    width: 48%;
 }

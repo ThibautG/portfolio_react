@@ -4,6 +4,10 @@
     /* padding-inline: 15%; */
 }
 
+.sous-titre {
+    font-size: 2.4rem;
+}
+
 .presentation-texte p {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -25,7 +29,7 @@
 }
 
 .btn-phone {
-    width: 30%;
+    width: 35%;
     padding: 18px 32px;
     border-radius: 10px;
     text-align: center;
@@ -44,7 +48,7 @@
 }
 
 .btn-cv {
-    width: 30%;
+    width: 35%;
     padding: 18px 32px;
     border: 1px solid #141414;
     border-radius: 10px;
@@ -96,6 +100,10 @@
 }
 
 .presentation img {
-    width: 100%;
+    width: 80%;
     padding: 20px 0 10px 0;
+}
+
+.presentation-image {
+    text-align: right;
 }
