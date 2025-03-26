@@ -16,15 +16,6 @@ import Legals from "../pages/Legals";
 
 function App() {
   return (
-      /*<React.Fragment>
-          <Navbar />
-          <ButtonHome />
-          <Presentation />
-          <Skills />
-          <About />
-          <Projects />
-          <Footer />
-      </React.Fragment>*/
       <Router>
           <Routes>
               <Route path={"/"} element={<Layout />}>
