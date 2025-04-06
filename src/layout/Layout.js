@@ -12,11 +12,6 @@ function Layout(props) {
     return (
         <div>
             <Navbar />
-           {/* <ButtonHome />
-            <Presentation />
-            <Skills />
-            <About />
-            <Projects />*/}
             <Outlet />
             <Footer />
         </div>
